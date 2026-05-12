@@ -77,7 +77,7 @@ var lyr_vias_3 = new ol.layer.Vector({
     <img src="styles/legend/vias_3_3.png" /> Trocha<br />' });
 
 lyr_OSMStandard_0.setVisible(true);lyr_po_distritos_UTM_v20_1.setVisible(true);lyr_BASE2025BASE2025_2.setVisible(true);lyr_vias_3.setVisible(true);
-var layersList = [lyr_OSMStandard_0,lyr_po_distritos_UTM_v20_1,lyr_BASE2025BASE2025_2,lyr_vias_3];
+var layersList = [lyr_OSMStandard_0,lyr_po_distritos_UTM_v20_1,lyr_vias_3,lyr_BASE2025BASE2025_2];
 lyr_po_distritos_UTM_v20_1.set('fieldAliases', {'IDDPTO': 'IDDPTO', 'DEPART': 'DEPART', 'PROV_ID': 'PROV_ID', 'PROVINCIA': 'PROVINCIA', 'DIST_ID': 'DIST_ID', 'DISTRITO': 'DISTRITO', 'AREA_Km2': 'AREA_Km2', 'AREA_Ha': 'AREA_Ha', });
 lyr_BASE2025BASE2025_2.set('fieldAliases', {'N°': 'N°', 'CÓDIGO LOCAL': 'CÓDIGO LOCAL', 'COD_MOD': 'COD_MOD', 'CODINST': 'CODINST', 'NOMBRE DE LAS INSTITUCIONES EDUCATIVAS DEL LOCAL EDUCATIVO': 'NOMBRE DE LAS INSTITUCIONES EDUCATIVAS DEL LOCAL EDUCATIVO', 'CENTRO POBLADO': 'CENTRO POBLADO', 'DISTRITO': 'DISTRITO', 'PROVINCIA': 'PROVINCIA', 'UGEL': 'UGEL', 'DIRECCION': 'DIRECCION', 'NIVEL/MODALIDAD': 'NIVEL/MODALIDAD', 'NIVEL': 'NIVEL', 'D_FORMA': 'D_FORMA', 'DAREACENSO': 'DAREACENSO', 'DIRECTOR': 'DIRECTOR', 'TOTAL ALUMNOS': 'TOTAL ALUMNOS', 'TDOCENTE': 'TDOCENTE', 'TSECCION': 'TSECCION', });
 lyr_vias_3.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'ZONUTM': 'Zona UTM', 'FUENTE': 'Entidad generadora', 'ORIGEN': 'Origen del objeto', 'CODRUT': 'Código de la Ruta', 'NIVVIA': 'Nivel de la vía', 'TIPSUP': 'Tipo de superficie', 'ESTCON': 'Estado de conservación', 'LONVIA': 'Longitud de la vía', 'ANCVIA': 'Ancho de la vía', 'OBSERV': 'Observacion o referencia', 'DOCREG': 'Documento que avala el registro', 'FECREG': 'Fecha de registro del objeto', 'SHAPE_Length': 'SHAPE_Length', });
